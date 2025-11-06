@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart shoping</title>
+    <link rel="stylesheet" href="exit/output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+<body class="Fontawsome bg-main">
+    <!-- header pc -->
+    <div class="bg-header-cart h-150 hidden md:block text-white">
+    <!-- header -->
+        <header class="backdrop-blur-[10px] bg-black/50 border-b-1 border-[#C49B63] px-10 py-5">
+            <div class="flex justify-between items-center lg:mx-10 mx-0">
+                <section>
+            <a href="index.html" class="text-[24px] block text-center leading-4">
+                COFFEE
+                <br>
+                <span class="text-[20px]">
+                    B L E N D
+                </span>
+            </a>
+                </section>
+                <section>
+                    <ul class="flex justify-center items-center lg:gap-10 gap-5">
+                        <li><a class="hover:text-[#C49B63] duration-200" href="index.html">HOME</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="menu.html">MENU</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="service.html">SERVICES</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="about.html">ABOUT</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="#">CONTACT</a></li>
+                        <li><a href="cart.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 fill-[#C49B63]" viewBox="0 0 256 256"><path d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"></path></svg>
+                        </a></li>
+                    </ul>
+                </section>
+            </div>
+        </header>
+        <!-- header fix -->
+        <header id="headerFix" class="fixed w-full right-0 top-0 bg-black border-b border-[#C49B63] px-10 py-3 z-30 opacity-0 -translate-y-full pointer-events-none transition-all duration-700">
+            <div class="flex justify-between items-center lg:mx-10 mx-0">
+                <section>
+            <a href="index.html" class="text-[24px] block text-center leading-4">
+                COFFEE
+                <br>
+                <span class="text-[20px]">
+                    B L E N D
+                </span>
+            </a>
+                </section>
+                <section>
+                    <ul class="flex justify-center items-center lg:gap-10 gap-5">
+                        <li><a class="hover:text-[#C49B63] duration-200" href="index.html">HOME</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="menu.html">MENU</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="service.html">SERVICES</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="about.html">ABOUT</a></li>
+                        <li><a class="hover:text-[#C49B63] duration-200" href="#">CONTACT</a></li>
+                        <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 fill-[#C49B63]" viewBox="0 0 256 256"><path d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"></path></svg>
+                        </a></li>
+                    </ul>
+                </section>
+            </div>
+        </header>
+        <!-- main text -->
+        <div data-aos="fade-up" class="flex flex-col text-center mt-40 gap-10">
+            <h2 class="text-[50px] bg-black/40">
+                Cart
+            </h2>
+            <section class="flex justify-center gap-3 text-[14px]">
+                <a href="index.html" class="p-4 w-30 border border-white bg-black/40 hover:bg-[#C49B63] hover:text-black hover:border-transparent duration-100">
+                    home
+                </a>
+                <a href="menu.html" class="p-4 w-30 border border-white bg-black/40 hover:bg-[#C49B63] hover:text-black hover:border-transparent duration-100">
+                    view menu
+                </a>
+            </section>
+        </div>
+    </div>
+    <!-- header mobile -->
+    <div class="bg-header-coffee md:hidden block text-white">
+        <!-- header -->
+        <header class="relative w-full bg-black flex justify-between items-center p-3 z-31">
+            <a href="index.html" class="text-[24px] block text-center leading-5">
+                COFFEE
+                <br>
+                <span class="text-[20px]">
+                    B L E N D
+                </span>
+            </a>
+            <span id="menuBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="w-10" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </span>
+        </header>
+        <!-- menu -->
+        <div id="menuDiv" class="absolute top-auto z-30 w-full bg-black text-white p-3 py-8 -translate-y-full duration-500">
+            <ul class="flex flex-col gap-7">
+                <li><a class="" href="index.html">HOME</a></li>
+                <li><a class="" href="menu.html">MENU</a></li>
+                <li><a class="" href="service.html">SERVICES</a></li>
+                <li><a class="" href="about.html">ABOUT</a></li>
+                <li><a class="" href="#">CONTACT</a></li>
+                <li><a href="cart.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 fill-[#C49B63]" viewBox="0 0 256 256"><path d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"></path></svg>
+                </a></li>
+            </ul>
+        </div>
+        <!-- main text -->
+        <div data-aos="fade-up" class="flex flex-col text-center gap-10 py-30">
+            <h2 class="text-[50px] bg-black/40 px-3">
+                Cart
+            </h2>
+            <section class="flex justify-center gap-3 text-[14px]">
+                <a href="index.html" class="p-4 w-30 border border-white bg-black/40 hover:bg-[#C49B63] hover:text-black hover:border-transparent duration-100">
+                    home
+                </a>
+                <a href="menu.html" class="p-4 w-30 border border-white bg-black/40 hover:bg-[#C49B63] hover:text-black hover:border-transparent duration-100">
+                    view menu
+                </a>
+            </section>
+        </div>
+    </div>
+    <!-- list product -->
+    <div class="w-full py-20">
+        <div class="md:mx-10 mx-3">
+            <section dir="rtl" class="bg-[#C49B63] text-white text-center md:text-[20px] text-[14px] flex items-center gap-6 py-5 px-5">
+                <span class="md:w-1/10">
+                    Total
+                </span>
+                <span class="md:w-2/10">
+                    Quantity
+                </span>
+                <span class="md:w-1/10">
+                    Price
+                </span>
+                <span class="md:w-3/10">
+                    Product
+                </span>
+            </section>
+            <ul dir="rtl" class="flex flex-col text-white text-center justify-start py-5 px-5 gap-10 ">
+                <li class="w-full flex md:flex-row flex-col-reverse md:justify-between md:items-center gap-8">
+                    <div class="w-full flex justify-start items-center gap-3 md:text-[20px] text-[14px]">
+                        <span class="md:w-1/10 text-yellow-400">100 $</span>
+                        <input type="number" name="number" class="w-2/10 border border-stone-700 text-[#C49B63] text-center py-2 outline-none">
+                        <span class="md:w-1/10">50 $</span>
+                        <section class="md:w-3/10">
+                            <h3 class="md:text[20px] text-[14px] whitespace-nowrap">
+                                Creamy Latte Coffee 
+                            </h3>
+                            <p class="text-stone-500 text-[14px] md:block hidden">
+                                Far far away, behind the word mountains, far from the countries
+                            </p>
+                        </section>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="md:w-10 mr-auto w-8 fill-[#C49B63]" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>
+                </li>
+                <hr class="text-stone-700"><li class="w-full flex md:flex-row flex-col-reverse md:justify-between md:items-center gap-8">
+                    <div class="w-full flex justify-start items-center gap-3 md:text-[20px] text-[14px]">
+                        <span class="md:w-1/10 text-yellow-400">100 $</span>
+                        <input type="number" name="number" class="w-2/10 border border-stone-700 text-[#C49B63] text-center py-2 outline-none">
+                        <span class="md:w-1/10">50 $</span>
+                        <section class="md:w-3/10">
+                            <h3 class="md:text[20px] text-[14px] whitespace-nowrap">
+                                Creamy Latte Coffee 
+                            </h3>
+                            <p class="text-stone-500 text-[14px] md:block hidden">
+                                Far far away, behind the word mountains, far from the countries
+                            </p>
+                        </section>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="md:w-10 mr-auto w-8 fill-[#C49B63]" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>
+                </li>
+                <hr class="text-stone-700">
+                <li class="w-full flex md:flex-row flex-col-reverse md:justify-between md:items-center gap-8">
+                    <div class="w-full flex justify-start items-center gap-3 md:text-[20px] text-[14px]">
+                        <span class="md:w-1/10 text-yellow-400">100 $</span>
+                        <input type="number" name="number" class="w-2/10 border border-stone-700 text-[#C49B63] text-center py-2 outline-none">
+                        <span class="md:w-1/10">50 $</span>
+                        <section class="md:w-3/10">
+                            <h3 class="md:text[20px] text-[14px] whitespace-nowrap">
+                                Creamy Latte Coffee 
+                            </h3>
+                            <p class="text-stone-500 text-[14px] md:block hidden">
+                                Far far away, behind the word mountains, far from the countries
+                            </p>
+                        </section>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="md:w-10 mr-auto w-8 fill-[#C49B63]" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>
+                </li>
+                <hr class="text-stone-700">
+                <li class="w-full flex md:flex-row flex-col-reverse md:justify-between md:items-center gap-8">
+                    <div class="w-full flex justify-start items-center gap-3 md:text-[20px] text-[14px]">
+                        <span class="md:w-1/10 text-yellow-400">100 $</span>
+                        <input type="number" name="number" class="w-2/10 border border-stone-700 text-[#C49B63] text-center py-2 outline-none">
+                        <span class="md:w-1/10">50 $</span>
+                        <section class="md:w-3/10">
+                            <h3 class="md:text[20px] text-[14px] whitespace-nowrap">
+                                Creamy Latte Coffee 
+                            </h3>
+                            <p class="text-stone-500 text-[14px] md:block hidden">
+                                Far far away, behind the word mountains, far from the countries
+                            </p>
+                        </section>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="md:w-10 mr-auto w-8 fill-[#C49B63]" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>
+                </li>
+                <hr class="text-stone-700">
+            </ul>
+        </div>
+    </div>
+
+    <!-- product -->
+    <div class="w-full py-20 md:px-10 px-3 border-b border-[#C49B63]">
+        <!-- title -->
+        <div data-aos="fade-up">
+            <section class="md:w-1/2 w-full mx-auto text-center">
+                <h3 class="text-[36px] text-white">
+                    Best Coffee Sellers
+                </h3>
+                <p class="text-stone-500 my:10 my-5">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+            </section>
+        </div>
+        <!-- products -->
+        <div class="grid md:grid-cols-4 grid-cols-2 items-start gap-10 mt-10">
+            <section class="flex flex-col md:gap-5 gap-2 text-center">
+                <div class="w-full aspect-square">
+                    <img src="images/menu-4.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-white font-semibold">
+                    Coffee Capuccino
+                </h4>
+                <p class="text-stone-500 text-[14px]">
+                    A small river named Duden flows by their place and supplies
+                </p>
+                <span class="text-white font-semibold">
+                    $50
+                </span>
+                <a href="#" class="p-2 text-[#C49B63] border border-[#C49B63] hover:bg-[#C49B63] hover:text-white hover:border-transparent duration-200">
+                    Add to Card
+                </a>
+            </section>
+            <section class="flex flex-col md:gap-5 gap-2 text-center">
+                <div class="w-full aspect-square">
+                    <img src="images/menu-desert.webp" alt="" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-white font-semibold">
+                    Coffee Capuccino
+                </h4>
+                <p class="text-stone-500 text-[14px]">
+                    A small river named Duden flows by their place and supplies
+                </p>
+                <span class="text-white font-semibold">
+                    $50
+                </span>
+                <a href="#" class="p-2 text-[#C49B63] border border-[#C49B63] hover:bg-[#C49B63] hover:text-white hover:border-transparent duration-200">
+                    Add to Card
+                </a>
+            </section>
+            <section class="flex flex-col md:gap-5 gap-2 text-center">
+                <div class="w-full aspect-square">
+                    <img src="images/menu-drink.webp" alt="" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-white font-semibold">
+                    Coffee Capuccino
+                </h4>
+                <p class="text-stone-500 text-[14px]">
+                    A small river named Duden flows by their place and supplies
+                </p>
+                <span class="text-white font-semibold">
+                    $50
+                </span>
+                <a href="#" class="p-2 text-[#C49B63] border border-[#C49B63] hover:bg-[#C49B63] hover:text-white hover:border-transparent duration-200">
+                    Add to Card
+                </a>
+            </section>
+            <section class="flex flex-col md:gap-5 gap-2 text-center">
+                <div class="w-full aspect-square">
+                    <img src="images/menu-main food.webp" alt="" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-white font-semibold">
+                    Coffee Capuccino
+                </h4>
+                <p class="text-stone-500 text-[14px]">
+                    A small river named Duden flows by their place and supplies
+                </p>
+                <span class="text-white font-semibold">
+                    $50
+                </span>
+                <a href="#" class="p-2 text-[#C49B63] border border-[#C49B63] hover:bg-[#C49B63] hover:text-white hover:border-transparent duration-200">
+                    Add to Card
+                </a>
+            </section>
+        </div>
+        </div>
+
+    <footer class="w-full bg-stone-900 text-white">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 w-full mx-auto md:p-20 py-10 px-5 gap-10">
+            <section class="flex flex-col gap-5 lg:mx-auto">
+                <h4>
+                    Contact Us
+                </h4>
+                <p class="text-stone-400 text-[16px]">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <div class="flex gap-5" data-aos="fade-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 fill-white" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 fill-white" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 fill-white" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+                </div>
+            </section>
+            <section class="flex flex-col gap-5 lg:mx-auto">
+                <h4>
+                    Recent Blog
+                </h4>
+                <div class="flex flex-col gap-5">
+                    <section class="flex items-start gap-2">
+                        <img class="w-20" src="images/bg_2.jpg" alt="">
+                        <a href="#" class="text-stone-400 hover:text-[#C49B63] duration-200 text-[16px]">
+                            Even the all-powerful Pointing has no control about
+                        </a>
+                    </section>
+                    <section class="flex items-start gap-2">
+                        <img class="w-20" src="images/bg_2.jpg" alt="">
+                        <a href="#" class="text-stone-400 hover:text-[#C49B63] duration-200 text-[16px]">
+                            Even the all-powerful Pointing has no control about
+                        </a>
+                    </section>
+                </div>
+            </section>
+            <section class="flex flex-col gap-5 lg:mx-auto">
+                <h4>
+                    Services
+                </h4>
+                <ul class="text-stone-400 text-[16px] flex flex-col gap-3">
+                    <li><a href="#" class="hover:text-white duration-200">Cooked</a></li>
+                    <li><a href="#" class="hover:text-white duration-200">Deliver</a></li>
+                    <li><a href="#" class="hover:text-white duration-200">Quality Foods</a></li>
+                    <li><a href="#" class="hover:text-white duration-200">Mixed</a></li>
+                </ul>
+            </section>
+            <section class="flex flex-col gap-5 lg:mx-auto">
+                <h4>
+                    Have a Questions?
+                </h4>
+                <ul class="text-stone-400 text-[16px] flex flex-col gap-5">
+                    <il>203 Fake St. Mountain View, San Francisco, California, USA</il>
+                    <il>+2 392 3929 210</il>
+                    <il>info@yourdomain.com</il>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/aos copy.js"></script>
+</body>
+</html>

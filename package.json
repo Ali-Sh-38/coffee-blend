@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "aos": "^2.3.4",
+    "countup.js": "^2.9.0",
+    "tailwindcss": "^4.1.13"
+  }
+}
