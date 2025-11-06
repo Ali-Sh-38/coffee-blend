@@ -1,0 +1,22 @@
+.bg-header{
+    background-image: url("/images/bg_1.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center;
+}
+.bg-header-cart{
+    background-image: url("/images/bg_3.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+.bg-header-coffee{
+    background-image: url("/images/menu-4.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+.bg-main{
+    background-image: url("/images/bg_color.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-attachment: fixed;
+}
